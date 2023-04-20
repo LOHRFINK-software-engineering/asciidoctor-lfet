@@ -1,0 +1,9 @@
+= {page-component-title}
+
+== Ways of using asciidoctor-decisiontable extension
+
+dt::example$smallestDecisionTable.lfet[]
+
+dt::example$smallestDecisionTableWithActionOcc.lfet[]
+
+lfet::example$smallestDecisionTableWithConditionOcc.lfet[]

@@ -1,0 +1,26 @@
+runtime:
+  cache_dir: ./.cache/antora
+  fetch: true
+
+site:
+  title: Antora x LF decision tables
+  start_page: antora-decisiontables::index.adoc
+
+content:
+  sources:
+    - url: ./../..
+      branches: HEAD
+      start_path: test/antora/docs
+
+asciidoc:
+  extensions:
+    - ./../../lib/asciidoctor-lfet.js
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+output:
+  dir: ./public
+  clean: true

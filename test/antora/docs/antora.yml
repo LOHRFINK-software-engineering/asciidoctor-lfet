@@ -1,0 +1,6 @@
+name: antora-decisiontables
+title: Antora x Lohrfink decision tables
+version: master
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc

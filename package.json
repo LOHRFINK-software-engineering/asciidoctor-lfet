@@ -1,0 +1,47 @@
+{
+	"name": "asciidoctor-lfet",
+	"version": "0.1.0-SNAPSHOT",
+	"license": "MIT",
+	"author": {
+		"name": "Constantin Krüger",
+		"email": "constantin.krueger@rulebasegroup.com"
+	},
+	"description": "An asciidoctor extension to embed Lohrfink decision tables as asciidoc tables",
+	"dependencies": {
+		"fast-xml-parser": "~4.2"
+	},
+	"devDependencies": {
+		"@antora/site-generator-default": "^3.1.7",
+		"@asciidoctor/core": "^2.2.6",
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/git": "^10.0.1",
+		"chai": "^4.4.1",
+		"cheerio": "0.22.0",
+		"conventional-changelog-eslint": "^5.0.0",
+		"mocha": "^10.2.0",
+		"rimraf": "^5.0.5",
+		"semantic-release": "^23.0.0",
+		"shx": "^0.3.4",
+		"eslint": "^8.56.0",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-config-ideal": "^1.0.0"
+	},
+	"peerDependencies": {
+		"@asciidoctor/core": "~2.2"
+	},
+	"scripts": {
+		"test": "npm run test:antora",
+		"test:antora": "mocha test/antora/**.spec.js",
+		"lint": "eslint \"./lib/**/*.js\" \"./test/**/*.js\"",
+		"lint:fix": "eslint \"./lib/**/*.js\" \"./test/**/*.js\" --fix",
+		"clean": "shx rm -rf dist/*",
+		"release": "semantic-release"
+	},
+	"files": [
+		"lib"
+	],
+	"main": "lib/asciidoctor-lfet.js",
+	"bugs": {
+		"url": "https://github.com/"
+	}
+}
