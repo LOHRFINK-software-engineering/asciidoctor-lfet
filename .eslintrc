@@ -1,0 +1,7 @@
+{
+    "extends": "standard",
+    "rules": {
+        "arrow-parens": ["errors", "always"]
+    },
+    "spaced-comment": "off"
+}

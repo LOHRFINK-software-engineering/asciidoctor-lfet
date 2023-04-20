@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LFET version="LF-ET 2.1.5 (190905b)" language="English" saveDate="2019.10.08 at 11:46:12 CEST" saveUser="constantin">
+  <Conditions>
+    <Condition uId="11443124863866955">
+      <Title language="English" value="Condition1"/>
+    </Condition>
+  </Conditions>
+  <Actions>
+    <Action uId="11443124863976962">
+      <Title language="English" value="Action1"/>
+      <ActionOccurrences>
+        <ActionOccurrence uId="15705279015382657">
+          <Symbol language="English" value="A"/>
+          <Title language="English" value="execute action"/>
+        </ActionOccurrence>
+      </ActionOccurrences>
+    </Action>
+    <Action uId="11443124877466972">
+      <Title language="English" value="Action2"/>
+      <ActionOccurrences>
+        <ActionOccurrence uId="15705279212582725">
+          <Symbol language="English" value="B"/>
+          <Title language="English" value="execute action B"/>
+        </ActionOccurrence>
+        <ActionOccurrence uId="15705279249402730">
+          <Symbol language="English" value="C"/>
+          <Title language="English" value="execute action C"/>
+        </ActionOccurrence>
+      </ActionOccurrences>
+    </Action>
+  </Actions>
+  <Rules lastId="7">
+    <Rule id="7">
+      <ConditionLink link="11443124863866955" conditionState="true"/>
+      <ActionOccurrenceLink link="15705279015382657"/>
+      <ActionOccurrenceLink link="15705279249402730"/>
+    </Rule>
+    <Rule id="6">
+      <ConditionLink link="11443124863866955" conditionState="false"/>
+      <ActionOccurrenceLink link="15705279212582725"/>
+    </Rule>
+  </Rules>
+  <Title language="English" value="smallestDecisionTableWithActionOcc"/>
+  <UrlsOut>
+    <Url title="Folder" url="file:///./"/>
+  </UrlsOut>
+</LFET>
