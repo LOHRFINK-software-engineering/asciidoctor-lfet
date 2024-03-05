@@ -1,6 +1,6 @@
 {
 	"name": "asciidoctor-lfet",
-	"version": "0.1.0-SNAPSHOT",
+	"version": "1.0.0",
 	"license": "MIT",
 	"author": {
 		"name": "Constantin Krüger",
