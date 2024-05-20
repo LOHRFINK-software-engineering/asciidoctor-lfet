@@ -7,3 +7,5 @@ dt::example$smallestDecisionTable.lfet[]
 dt::example$smallestDecisionTableWithActionOcc.lfet[]
 
 lfet::example$smallestDecisionTableWithConditionOcc.lfet[]
+
+lfet::example$smallestDecisionTableWithConditionOcc.lfet[showOnlyRules="1,2"]
