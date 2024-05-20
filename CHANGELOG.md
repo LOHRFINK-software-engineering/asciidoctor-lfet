@@ -1,3 +1,23 @@
+# [1.1.0](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/compare/v1.0.0...v1.1.0) (2024-05-20)
+
+
+### Build
+
+* Bump @asciidoctor/core from 2.2.6 to 2.2.7 ([ca486b7](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/ca486b7ecea10c3b79ba9701f733102672580d01))
+* Bump chai from 5.1.0 to 5.1.1 ([4de3c49](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/4de3c4905a4cb0572e104eeca5774cb5924fcacf))
+* Bump conventional-changelog-eslint from 5.0.0 to 6.0.0 ([4143a32](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/4143a32995858e28f2138848a5e2f13ed8d463e3))
+* Bump mocha from 10.3.0 to 10.4.0 ([05308ce](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/05308ce3ea78bba6ee6dd6b6f6041ef416e099ae))
+* Bump rimraf from 5.0.5 to 5.0.7 ([017bd5b](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/017bd5bddc1682773ed3f219261a8f2f2b766ee7))
+* Bump semantic-release from 23.0.2 to 23.1.1 ([99a3cc9](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/99a3cc92b2b826a226469f41d4460526bb801840))
+
+### New
+
+* Add new attribute showOnlyRules to only include specific rules ([ada5520](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/ada55204f1b95528e0a5845ef57f1f8d8ec816a3))
+
+### Upgrade
+
+* Bump fast-xml-parser from 4.3.5 to 4.4.0 ([8b6c1fc](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/8b6c1fc8d542754b6d90f6dc8d1e23e78137faac))
+
 # 1.0.0 (2024-03-05)
 
 
