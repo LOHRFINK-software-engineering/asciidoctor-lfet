@@ -1,3 +1,21 @@
+## [1.1.1](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/compare/v1.1.0...v1.1.1) (2025-01-16)
+
+
+### Build
+
+* Bump @antora/site-generator-default from 3.1.7 to 3.1.10 ([b07df90](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/b07df907d328c2a05c23252432ebb212c39bdd28))
+* Bump cheerio from 0.22.0 to 1.0.0 ([21614fb](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/21614fb7bd40ea24a2612c122b41079ea1baf31b))
+* Bump mocha from 10.4.0 to 11.0.1 ([19a3beb](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/19a3bebd6e5606ae1e068c12f1d94aa4f31f6341))
+* Bump rimraf from 5.0.7 to 6.0.1 ([e32ec68](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/e32ec683185c6a21d1f06228bf6025e5f48caa11))
+
+### Fix
+
+* Access to ActionLinks and ActionOccurenceLink ([68891c4](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/68891c48c1e4c2f27f27cf21e16621c70bb44989))
+
+### Upgrade
+
+* Bump fast-xml-parser from 4.4.0 to 4.5.1 ([fb41302](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/fb413024e788e7caaff8e68343d23f0e1e0231f2))
+
 # [1.1.0](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/compare/v1.0.0...v1.1.0) (2024-05-20)
 
 
