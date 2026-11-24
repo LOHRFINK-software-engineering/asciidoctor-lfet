@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/compare/v1.1.1...v1.1.2) (2026-11-24)
+
+
+### Fix
+
+* Access to ConditionLinks, to avoid undefined ([2bbdb6b](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/commit/2bbdb6b2974db5be2ba0dd0ebd85b6cc0df6fa33))
+
 ## [1.1.1](https://github.com/LOHRFINK-software-engineering/asciidoctor-lfet/compare/v1.1.0...v1.1.1) (2025-01-16)
 
 
