@@ -21,7 +21,7 @@
 		"mocha": "^11.0.1",
 		"rimraf": "^6.0.1",
 		"semantic-release": "^23.0.2",
-		"shx": "^0.3.4",
+		"shx": "^0.4.0",
 		"eslint": "^8.57.0",
 		"eslint-config-standard": "^17.1.0",
 		"eslint-config-ideal": "^1.0.0"
